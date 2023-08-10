@@ -8,6 +8,7 @@ header{
     width: 100%;
     position: sticky;
     top: 0;
+    background-color: white;
 }
 .nav{
     display: inline-flex;
@@ -33,7 +34,7 @@ header{
     list-style: none;
 }
 .menu ul li a{
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     margin-right: 45px;
     color: black;
@@ -42,10 +43,44 @@ header{
 .menu ul li a:hover{
     color: orange;
 }
-.box{
-    height: 500px;
 
+
+/* Body section  */
+
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 50px;
+    gap: 20px;
 }
+.bone{
+    text-align: center;
+    line-height: normal;
+    padding: 30px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 14px rgb(228, 218, 218);
+    
+}
+
+.bone img{
+    width: 180px;
+}
+.bone p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.bonered{
+    color: red;
+}
+
+
+
+
+
+
+/* This is the footer section  */
 
 .footer{
     display: inline-flex;
