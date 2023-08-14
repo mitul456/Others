@@ -1,0 +1,117 @@
+@media (min-width:500px) and (max-width:600px) {
+    .box{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 50px;
+    }
+    .footer{
+        display: inline-block;
+        padding: 30px;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    
+    .one{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .one li{
+        list-style: none;
+        text-align: center;
+    
+    }
+    .one li a{
+        text-decoration: none;
+        padding-left: 50px;
+        color: black;
+        line-height: 1.8;
+        font-size: 14px;
+        text-align: center;
+    }
+    .one li a:hover{
+        color: orange;
+    }
+    
+    .two{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .two li{
+        list-style: none;
+        text-align: center;
+    
+    }
+    .two li a{
+        text-decoration: none;
+        padding-left: 50px;
+        color: black;
+        line-height: 1.8;
+        font-size: 14px;
+    }
+    .two li a:hover{
+        color: orange;
+    }
+    .three{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .three li{
+        list-style: none;
+        text-align: center;
+    
+    }
+    .three li a{
+        text-decoration: none;
+        padding-left: 50px;
+        color: black;
+        line-height: 1.8;
+        font-size: 14px;
+    }
+    .three li a:hover{
+        color: orange;
+    }
+    .four{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .four li{
+        list-style: none;
+        text-align: center;
+    
+    }
+    .four li a{
+        text-decoration: none;
+        padding-left: 50px;
+        color: black;
+        line-height: 1.8;
+        font-size: 14px;
+        text-align: center;
+    }
+    .four li a:hover{
+        color: orange;
+    }
+    .five{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .five li{
+        list-style: none;
+        text-align: center;
+    }
+    .five li a{
+        text-decoration: none;
+        padding-left: 50px;
+        color: black;
+        line-height: 1.8;
+        text-align: center;
+        font-size: 14px;
+        font-size: 14px;
+    }
+    .five li a:hover{
+        color: orange;
+    }
+    .fh{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
