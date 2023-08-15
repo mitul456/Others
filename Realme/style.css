@@ -34,7 +34,7 @@ header{
     list-style: none;
 }
 .menu ul li a{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     margin-right: 45px;
     color: black;
@@ -82,6 +82,16 @@ header{
 }
 
 
+/* This is the banner section  */
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -186,4 +196,67 @@ header{
 .fh{
     font-size: 17px;
     font-weight: bold;
+}
+.devider{
+    width: 100%;
+    padding-left: 77px;
+    padding-right: 50px;
+}
+.devider p{
+    padding-bottom: 8px;
+    font-size: 15px;
+    width: 50%;
+}
+.devider hr{
+    
+}
+.fcopy{
+    display: flex;
+    width: 50%;
+}
+.fnav{
+    width: 50%;
+}
+.fnav ul{
+    display: inline-flex;
+    width: 440px;
+}
+.fnav ul li{
+    list-style: none;
+}
+.fnav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+    margin-left: 30px;
+}
+
+
+.fcleft{
+    margin-top: 10px;
+    display: flex;
+    padding-bottom: 60px;
+}
+.fcleftcontent{
+    width: 40%;
+}
+.fcleftcontent p{
+    color: gray;
+    font-size: 15px;
+}
+.fcrightcontent{
+    width: 60%;
+}
+.fcrightcontent ul{
+    display: flex;
+    float: right;
+}
+.fcrightcontent ul li{
+    list-style: none;
+}
+.fcrightcontent ul li a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
 }
