@@ -44,6 +44,9 @@ header{
     font-weight: lighter;
     padding-left: 30px;
 }
+.menu ul li a:hover{
+    color: #fcc122;
+}
 .menu ul li a i{
     color: black;
     border: 5px solid #6e6745;
