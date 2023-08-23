@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: inline-flex;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    border-bottom: 1px solid orange;
+}
+nav ul li a:hover{
+    color: orange;
+}
+nav ul li img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: -5px;
+}
+.right_menu ul{
+    padding-left: 65%;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/img13.webp);
+    background-position: center;
+    background-size: cover;
+}
+.banner img{
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.fiveg{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.twoelv{
+    color: red;
+}
+.redmi12pro{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+.banner p{
+    margin-left: 150px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.second_nav{
+    display: flex;
+    width: 100%;
+}
+.left_navs{
+    
+}
+.left_navs ul{
+    display: flex;
+}
+.left_navs ul li{
+    list-style: none;
+
+}
+.left_navs ul li a{
+    text-decoration: none;
+}
+.right_navs{
+    
+}
+.right_navs ul{
+    display: flex;
+}
+.right_navs ul li{
+    list-style: none;
+}
+.right_navs ul li a{
+    text-decoration: none;
+}
