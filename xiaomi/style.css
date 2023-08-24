@@ -6,41 +6,60 @@
 header{
     display: inline-flex;
     width: 100%;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-    background-color: white;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ddcccc;
+    box-shadow: 3px 5px 10px white;
 }
-nav{
-    width: 50%;
+.left_menu{
+    width: 100%;
 }
-nav ul{
+.left_menu ul{
     display: inline-flex;
     width: 100%;
 }
-nav ul li{
+.left_menu ul li{
     list-style: none;
-    padding: 10px;
+    padding: 15px;
 
 }
-nav ul li a{
+.left_menu ul li a{
     text-decoration: none;
     color: black;
 }
-nav ul li:hover{
+.left_menu ul li:hover{
     border-bottom: 1px solid orange;
 }
-nav ul li a:hover{
+.left_menu ul li a:hover{
     color: orange;
 }
-nav ul li img{
+.left_menu ul li img{
     width: 30px;
     height: 30px;
     border-radius: 10px;
     margin-top: -5px;
 }
+.right_menu{
+    width: 100%;
+}
 .right_menu ul{
-    padding-left: 65%;
+    display: inline-flex;
+    float: right;
+    padding-right: 3%;
+}
+.right_menu ul li{
+    list-style: none;
+    padding: 15px;
+
+}
+.right_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.right_menu ul li:hover{
+    border-bottom: 1px solid orange;
+}
+.left_menu ul li a:hover{
+    color: orange;
 }
 .banner{
     width: 100%;
@@ -78,29 +97,140 @@ nav ul li img{
 .second_nav{
     display: flex;
     width: 100%;
+    height: 40px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
 }
 .left_navs{
-    
+    width: 100%;
 }
 .left_navs ul{
     display: flex;
+    padding-left: 15px;
 }
 .left_navs ul li{
     list-style: none;
-
+    padding: 10px;
 }
 .left_navs ul li a{
     text-decoration: none;
+    font-size: 16px;
+    color: black;
 }
 .right_navs{
-    
+    width: 100%;
 }
 .right_navs ul{
-    display: flex;
+    display: inline-flex;
+    float: right;
+    padding-right: 8%;
 }
 .right_navs ul li{
     list-style: none;
+    padding: 10px;
 }
 .right_navs ul li a{
     text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.banner_text{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_text p{
+    font-size: 25px;
+    width: 750px;
+    text-align: center;
+    font-weight: 550;
+    line-height: 1.5;
+    animation: hueRotate 3s infinite;
+    background: linear-gradient(90deg,#ea8b25,#df3017,#8e20af,#4034fa,#01caa5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-position: 50%;
+    background-size: cover;
+    color: #0000;
+}
+.imgsection_flex{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    width: 100%;
+}
+.imgone{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.imgone p{
+    margin-bottom: -36px;
+    position: absolute;
+    z-index: 111;
+    padding-top: 3%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 6%;
+    font-size: 18px;
+    font-weight: 550;
+}
+.imgone img{
+    width: 100%;
+    height: 100%;
+}
+.imgtwo{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.imgtwo p{
+    width: 100%;
+    height: 29.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #e8f2fa;
+}
+.d_text{
+    width: 65%;
+    font-size: 18px;
+    margin-left: 18%;
+    font-weight: 550;
+    line-height: 1.5;
+}
+.d_text2{
+    width: 75%;
+    font-size: 18px;
+    margin-left: 18%;
+    font-weight: 550;
+    line-height: 1.5;
+}
+.imgtwo img{
+    width: 100%;
+    height: 33%;
+}
+.imgthree{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+.imgthree p{
+    width: 100%;
+    height: 29%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #cce7f7;
+    margin-bottom: 7px;
+}
+.imgthree img{
+    width: 100%;
+    height: 70%;
 }
